@@ -1,0 +1,17 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Evision Automation Suite" >
+
+    <test name="Evision Automation Test">
+        <groups>
+                    <run>
+                       <include name="smoke"/>
+                    </run>
+                </groups>
+
+        <classes>
+            <class name="com.evision.eauf.evision_automation.EvisionAutomationApplication" />
+        </classes>
+    </test>
+
+</suite>
